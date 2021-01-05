@@ -3,9 +3,9 @@ require("dotenv").config();
 
 const app = express();
 
-const { APP_PORT } = process.env;
+const { PORT } = process.env;
 
-app.listen(APP_PORT, () => {
+app.listen(5000, () => {
   console.log("listening...");
 });
 
